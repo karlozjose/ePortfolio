@@ -45,3 +45,9 @@ section {
 .project img {
     max-width: 100%;
 }
+
+/* for javascript */
+.color-box {
+    background-color: lightblue;
+    transition: 0.3s ease;
+}
