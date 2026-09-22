@@ -3,75 +3,143 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos J. Malave - Electrical Engineer</title>
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
 
-    <title>Digital Portfolio</title>
 </head>
 <body>
-    <div class="container">
-        <head>
+    <div class="container"> <!-- container, covers all the page -->
+        <!-- header info -->
+        <header>
             <h1>Portfolio</h1>
             <nav>
                 <ul>
-                    <li class="color-box"><a href="#about">About</a></li> 
-                    <li class="color-box"><a href="#projects">Projects</a></li>
-                    <li class="color-box"><a href="#contact">Contact</a></li>
-                    <li class="color-box"><a href="https://karlozjose.github.io/Resume/" target="_blank">Resume</a></li>
+                    <li class="color-box"><a href="#about">     About       </a></li>
+                    <li class="color-box"><a href="#bio">       Bio         </a></li>
+                    <li class="color-box"><a href="#skills">    Skills      </a></li>
+                    <li class="color-box"><a href="#experience">Experience  </a></li>
+                    <li class="color-box"><a href="#projects">  Projects    </a></li>
+                    <li class="color-box"><a href="#hobbies">   Hobbies     </a></li>
+                    <li class="color-box"><a href="#resume">    Resume      </a></li>
+                    <li class="color-box"><a href="#contact">   Contact     </a></li>
+                    <!-- <li class="color-box"><a href="https://karlozjose.github.io/Resume/" target="_blank">Resume</a></li> -->
                 </ul>
             </nav>
-        </head>
-        
-        <section id="about">
-            <h2>About Me</h2>
-            <p>This site has a compilation of work I have developed to expand my knowledge of computer engineering. 
-            </p>
-            <p>Brief introduction. Background, skill, and interests</p>
-        </section>
+        </header>
+        <!-- header info ends -->
 
-        <section id="projects">
-            <h2>Python Projects</h2>
-            <div class="project">
-                <h3>Artificial Intelligent Snake Game</h3>
-                <!-- add image -->
-                 <p>Using Gym</p>
-            </div>
+         <main>
+            <!-- About Section -->
+            <section id="about">
+                <h2>About Me</h2>
+                <!-- Brief introduction. Background, skill, and interests -->
+                <p>
+                    I am an Electrical Engineer with background in Analog Design. At least that what my degree and (insert school card) says. But in reality I am a gamer struggling to play games, work, and sleep (you  know that feeling). I have been searching in my foggy brain a form to express my thoughts and have them ready for action at times notice. These include my background, work experience, side jobs, interests, and games. Yes, I will include my one favorite hobby and other hobbies I <em>tried</em> to acquired in the past couple of years.
+                </p>
+                <p>
+                    My mission is to show anybody that wants me in their  team my interest and job experiences. I will present a summary of these and then put on examples projects, links, and/or pictures to show more details. All in all, this will serve as a repository of my current/finished projects and knowledge gained through the process.
+                </p>
+            </section>
+            <!-- Bio Section -->
+            <section id="bio">
+                <h2>Bio</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, ut in. Provident dolores odit deleniti! Impedit eaque veritatis maxime odit in autem exercitationem sequi dolores, pariatur corrupti facere voluptate eveniet.</p>
 
-            <div class="project">
-                <h3>Neural Network</h3>
-                <!-- add image -->
-                 <p>Basic neural network. Perceptron.</p>
-            </div>
+            </section>
 
-            <div class="project">
-                <h3>Reinforcement Learning</h3>
-                <!-- add image or gif -->
-                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora tenetur asperiores atque, veniam sequi ipsa possimus assumenda repellat quos mollitia, non, earum praesentium architecto delectus eligendi odit? Hic, soluta quis.</p>
-            </div>
+            <!-- Skills Section -->
+            <section id="skills">
+                <h2>Skills</h2>
+                <div class="skill-category">
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li>Electrical Hull Fittings & Outboard Cables</li>
+                        <li>Class Maintenance Plans & Standards</li>
+                        <li>Electrical Test Procedures & Validation</li>
+                        <li>Test Equipment (Digital Multimeters, Oscilloscopes, Signal Generators)</li>
+                        <li>Circuit Design & Simulation (MultiSim, PSpice)</li>
+                        <li>Analog & Digital Circuits | Power Electronics</li>
+                        <li>Microprocessors | Signal & Systems</li>
+                        <li>Python, GIT, HTML5, CSS3</li>
+                     </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Professional & Analytical Skills</h3>
+                    <ul>
+                        <li>Technical Documentation & Requirements Analysis</li>
+                        <li>Troubleshooting</li>
+                        <li>Problem Solving</li>
+                        <li>Project Coordination</li>
+                    </ul>
+                </div>
+            </section>
 
-            <h2>Unreal Engine Projects</h2>
-            <div class="project">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, exercitationem totam? Amet dolore ipsam nam at qui iste, ipsa pariatur quibusdam, eum aspernatur dolor sunt laudantium? Dolor quibusdam a quisquam!</p>
-            </div>
-            <!-- add more proj -->
-        </section>
+            <section id="experience">
+                <h2>As an Engineer...</h2>
+                <h2>Work Experience</h2>
 
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p>You can reach me with the form below. Just sent me anything!</p>
-            <!-- add a contact form -->
-            <form action="https://formsubmit.co/54248bb4189c1a58d2a9a0d7b2546703" method="POST">
-                <input type="hidden" name="_captcha" value="false">
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required><br>
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" required><br><br>
-                <label for="message">Your message:</label><br>
-                <textarea id="message" name="message" rows ="5" cols ="22" required></textarea><br><br>
-                <!-- <input type="text" name="message" placeholder = " Write your message" required><br> -->
-                <button type="submit">Submit</button>
-           </form>
-        </section>
-    </div>
+            </section>
+
+            <section id="projects">
+                <h2>Python & AI Projects</h2>
+                <p>Projects focused on expanding my skills in software, artificial intelligence, and video games.</p>
+                <div class="project">
+                    <h3>AI Snake Game</h3>
+                    <!-- add image -->
+                     <p>Built using OpenAI Gym and reinforcement learning to train an agent to play Snake.</p>
+                </div>
+                <div class="project">
+                    <h3>Perceptron Neural Network</h3>
+                    <!-- add image -->
+                     <p>Implemented a single-layer neural network (Perceptron) from scratch in Python to demonstrate fundamental machine learning concepts.</p>
+                </div>
+                <div class="project">
+                    <h3>Reinforcement Learning</h3>
+                    <!-- add image or gif -->
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora tenetur asperiores atque, veniam sequi ipsa possimus assumenda repellat quos mollitia, non, earum praesentium architecto delectus eligendi odit? Hic, soluta quis.</p>
+                </div>
+                <h2>Unreal Engine Projects</h2>
+                <div class="project">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, exercitationem totam? Amet dolore ipsam nam at qui iste, ipsa pariatur quibusdam, eum aspernatur dolor sunt laudantium? Dolor quibusdam a quisquam!</p>
+                </div>
+                <!-- add more proj -->
+            </section>
+
+            <!-- Hobbies section -->
+            <section id="hobbies">
+                <h2>Hobbies & Interests</h2>
+                <p>When I'm not working on hardware or code, I enjoy gaming, exploring new technology, and experimenting with creative projects.</p>
+            </section>
+
+            <!-- Resume Section -->
+            <section id="resume">
+                <h2>Resume</h2>
+                <p>Donwload my full resume: <a href="/files/Carlos J. Malave Resume.pdf" target="_blank" rel="noopener noreferrer">View Resume (PDF)</a></p>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <p>You can reach me with the form below. Just sent me anything!</p>
+                <!-- add a contact form -->
+                <form action="https://formsubmit.co/54248bb4189c1a58d2a9a0d7b2546703" method="POST">
+                    <input type="hidden" name="_captcha" value="false">
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="message">Your message:</label><br>
+                    <textarea id="message" name="message" rows ="5" cols ="22" required></textarea><br><br>
+                    <!-- <input type="text" name="message" placeholder = " Write your message" required><br> -->
+                    <button type="submit">Submit</button>
+               </form>
+            </section>
+         </main>
+         <footer>
+            &copy; 2026 Carlos J. Malave. All rights reserved.
+         </footer>
+    </div> <!-- container ends -->
+
     <script src="script.js"></script>
 </body>
 </html>
