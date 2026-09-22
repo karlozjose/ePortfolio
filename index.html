@@ -9,26 +9,27 @@
 
 </head>
 <body>
+    <!-- header info -->
+    <header>
+        <h1>Welcome!</h1>
+        <nav>
+            <ul>
+                <li class="color-box"><a href="#about">     About       </a></li>
+                <!-- <li class="color-box"><a href="#bio">       Bio         </a></li> -->
+                <li class="color-box"><a href="#skills">    Skills      </a></li>
+                <li class="color-box"><a href="#experience">Experience  </a></li>
+                <li class="color-box"><a href="#Education">Education   </a></li>
+                <li class="color-box"><a href="#professional">Professional </a></li>
+                <li class="color-box"><a href="#projects">  Projects    </a></li>
+                <li class="color-box"><a href="#hobbies">   Hobbies     </a></li>
+                <li class="color-box"><a href="#resume">    Resume      </a></li>
+                <li class="color-box"><a href="#contact">   Contact     </a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header info ends -->
+    
     <div class="container"> <!-- container, covers all the page -->
-        <!-- header info -->
-        <header>
-            <h1>Portfolio</h1>
-            <nav>
-                <ul>
-                    <li class="color-box"><a href="#about">     About       </a></li>
-                    <li class="color-box"><a href="#bio">       Bio         </a></li>
-                    <li class="color-box"><a href="#skills">    Skills      </a></li>
-                    <li class="color-box"><a href="#experience">Experience  </a></li>
-                    <li class="color-box"><a href="#projects">  Projects    </a></li>
-                    <li class="color-box"><a href="#hobbies">   Hobbies     </a></li>
-                    <li class="color-box"><a href="#resume">    Resume      </a></li>
-                    <li class="color-box"><a href="#contact">   Contact     </a></li>
-                    <!-- <li class="color-box"><a href="https://karlozjose.github.io/Resume/" target="_blank">Resume</a></li> -->
-                </ul>
-            </nav>
-        </header>
-        <!-- header info ends -->
-
          <main>
             <!-- About Section -->
             <section id="about">
@@ -42,7 +43,7 @@
                 </p>
             </section>
             <!-- Bio Section -->
-            <section id="bio">
+            <section id="bio" hidden>
                 <h2>Bio</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, ut in. Provident dolores odit deleniti! Impedit eaque veritatis maxime odit in autem exercitationem sequi dolores, pariatur corrupti facere voluptate eveniet.</p>
 
@@ -76,7 +77,6 @@
             </section>
 
             <section id="experience">
-                <h2>As an Engineer...</h2>
                 <h2>Work Experience</h2>
 
             </section>
@@ -122,7 +122,7 @@
                 <h2>Contact Me</h2>
                 <p>You can reach me with the form below. Just sent me anything!</p>
                 <!-- add a contact form -->
-                <form action="https://formsubmit.co/54248bb4189c1a58d2a9a0d7b2546703" method="POST">
+                <form action="https://formsubmit.co/el/libeje" method="POST" enctype="multipart/form-data">
                     <input type="hidden" name="_captcha" value="false">
                     <label for="email">Email:</label><br>
                     <input type="email" id="email" name="email" required><br>
@@ -140,6 +140,7 @@
          </footer>
     </div> <!-- container ends -->
 
-    <script src="script.js"></script>
+    <!-- not used -->
+    <!-- <script src="script.js"></script> -->
 </body>
 </html>
