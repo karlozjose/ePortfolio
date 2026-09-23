@@ -18,6 +18,19 @@ body {
     background-color: #f8f9fa;
     color: #212529;
     line-height: 1.6;
+    /* Fade-in setup */
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+/* Class added when page is ready */
+body.page-loaded {
+    opacity: 1;
+}
+
+/* Class added when leaving page */
+body.page-fading-out {
+    opacity: 0;
 }
 
 /* Page Container */
